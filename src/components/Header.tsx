@@ -39,8 +39,8 @@ export function Header() {
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-1">
           {[
-            { label: 'Explore', href: 'https://maiat.xyz/explore' },
-            { label: 'API Docs', href: 'https://maiat.xyz/docs' },
+            { label: 'Explore', href: 'https://maiat-protocol.vercel.app/explore' },
+            { label: 'API Docs', href: 'https://maiat-protocol.vercel.app/docs' },
             { label: 'GitHub', href: 'https://github.com/JhiNResH/maiat' },
           ].map((item) => (
             <Link
@@ -82,7 +82,7 @@ export function Header() {
             />
             Base Sepolia Live
           </div>
-          <Link href="https://maiat.xyz/explore" className="btn-primary text-sm">
+          <Link href="https://maiat-protocol.vercel.app/explore" className="btn-primary text-sm">
             Launch App
           </Link>
         </div>
@@ -109,8 +109,8 @@ export function Header() {
           style={{ borderTop: '1px solid var(--border-subtle)' }}
         >
           {[
-            { label: 'Explore', href: 'https://maiat.xyz/explore' },
-            { label: 'API Docs', href: 'https://maiat.xyz/docs' },
+            { label: 'Explore', href: 'https://maiat-protocol.vercel.app/explore' },
+            { label: 'API Docs', href: 'https://maiat-protocol.vercel.app/docs' },
             { label: 'GitHub', href: 'https://github.com/JhiNResH/maiat' },
           ].map((item) => (
             <Link
@@ -122,7 +122,7 @@ export function Header() {
               {item.label}
             </Link>
           ))}
-          <Link href="https://maiat.xyz/explore" className="btn-primary mt-3 justify-center">
+          <Link href="https://maiat-protocol.vercel.app/explore" className="btn-primary mt-3 justify-center">
             Launch App
           </Link>
         </div>

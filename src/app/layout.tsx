@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Maiat — Trust Infrastructure for AI Agents",
     description: "Query any address. Get a trust score. Trade with confidence.",
-    url: "https://maiat.xyz",
+    url: "https://maiat-protocol.vercel.app",
     siteName: "Maiat Protocol",
     locale: "en_US",
     type: "website",

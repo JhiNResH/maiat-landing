@@ -69,10 +69,10 @@ export function Footer() {
                 Product
               </span>
               {[
-                { label: 'Explore', href: 'https://maiat.xyz/explore' },
-                { label: 'API Docs', href: 'https://maiat.xyz/docs' },
-                { label: 'Trust Score', href: 'https://maiat.xyz/docs' },
-                { label: 'Hook Contracts', href: 'https://maiat.xyz/docs' },
+                { label: 'Explore', href: 'https://maiat-protocol.vercel.app/explore' },
+                { label: 'API Docs', href: 'https://maiat-protocol.vercel.app/docs' },
+                { label: 'Trust Score', href: 'https://maiat-protocol.vercel.app/docs' },
+                { label: 'Hook Contracts', href: 'https://maiat-protocol.vercel.app/docs' },
               ].map((link) => (
                 <Link
                   key={link.label}
@@ -94,7 +94,7 @@ export function Footer() {
                 { label: 'MCP Server', href: '#' },
                 { label: 'AgentKit Plugin', href: '#' },
                 { label: 'ElizaOS Plugin', href: '#' },
-                { label: 'REST API', href: 'https://maiat.xyz/docs' },
+                { label: 'REST API', href: 'https://maiat-protocol.vercel.app/docs' },
               ].map((link) => (
                 <Link
                   key={link.label}

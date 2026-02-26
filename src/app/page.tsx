@@ -198,11 +198,11 @@ export default function HomePage() {
 
           {/* CTAs */}
           <div className="flex flex-wrap items-center justify-center gap-3 animate-fade-up delay-3">
-            <Link href="https://maiat.xyz/explore" className="btn-primary">
+            <Link href="https://maiat-protocol.vercel.app/explore" className="btn-primary">
               Launch App
               <ArrowRight size={16} />
             </Link>
-            <Link href="https://maiat.xyz/docs" className="btn-secondary">
+            <Link href="https://maiat-protocol.vercel.app/docs" className="btn-secondary">
               Read the Docs
               <ArrowUpRight size={15} />
             </Link>
@@ -226,11 +226,11 @@ export default function HomePage() {
                 <span className="w-2.5 h-2.5 rounded-full" style={{ background: 'var(--teal)' }} />
                 <span className="font-mono text-[10px] ml-1 uppercase tracking-widest" style={{ color: 'var(--text-muted)' }}>terminal</span>
               </div>
-              <CopyButton text="curl https://api.maiat.xyz/v1/score/0x742d35Cc6634C0532925a3b844Bc9e7595f2bD28" />
+              <CopyButton text="curl https://maiat-protocol.vercel.app/api/v1/score/0x742d35Cc6634C0532925a3b844Bc9e7595f2bD28" />
             </div>
             <div className="px-5 py-4 text-left">
               <p className="font-mono text-[12px] leading-5" style={{ color: 'var(--teal)' }}>
-                $ curl https://api.maiat.xyz/v1/score/0x742d35Cc...
+                $ curl https://maiat-protocol.vercel.app/api/v1/score/0x742d35Cc...
               </p>
               <div className="mt-3">
                 {API_DEMO.split('\n').map((line, i) => {
@@ -434,7 +434,7 @@ export default function HomePage() {
               </div>
 
               <div className="flex gap-3">
-                <Link href="https://maiat.xyz/docs" className="btn-primary">
+                <Link href="https://maiat-protocol.vercel.app/docs" className="btn-primary">
                   Read the Docs
                   <ArrowUpRight size={15} />
                 </Link>
@@ -677,11 +677,11 @@ await agent.execute(action)`} />
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3">
-            <Link href="https://maiat.xyz/explore" className="btn-primary text-base px-10 py-4">
+            <Link href="https://maiat-protocol.vercel.app/explore" className="btn-primary text-base px-10 py-4">
               Launch App
               <ArrowRight size={18} />
             </Link>
-            <Link href="https://maiat.xyz/docs" className="btn-secondary text-base px-10 py-4">
+            <Link href="https://maiat-protocol.vercel.app/docs" className="btn-secondary text-base px-10 py-4">
               API Reference
             </Link>
           </div>
